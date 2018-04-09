@@ -1,8 +1,3 @@
 # Blueprint
 
-A blueprint for reasonably large Flask apps (SQLAlchemy, Celery)
-
-### TODOs
-
-- Flask Blueprints
-- Webpack with React
+A blueprint for reasonably large Flask apps (SQLAlchemy, Celery). Someday, I'll setup webpack/React.

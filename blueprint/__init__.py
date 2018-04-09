@@ -3,7 +3,6 @@ from flask_sqlalchemy import SQLAlchemy
 
 from blueprint.utils import make_celery
 
-
 app = Flask(__name__)
 app.config.update(
     CELERY_BROKER_URL='redis://localhost:6379',
@@ -16,4 +15,6 @@ app.config.update(
 celery = make_celery(app)
 db = SQLAlchemy(app)
 
-from blueprint import views
+from blueprint.web.views import web
+
+app.register_blueprint(web)
