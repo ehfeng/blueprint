@@ -1,3 +1,8 @@
-# Flask Blueprint
+# Blueprint
 
-Goal: setup a basic Flask app with SQLAlchemy and Celery tasks
+A blueprint for reasonably large Flask apps (SQLAlchemy, Celery)
+
+### TODOs
+
+- Flask Blueprints
+- Webpack with React
